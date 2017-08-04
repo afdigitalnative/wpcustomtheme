@@ -1,0 +1,110 @@
+/*! MOBILE LAYOUT */
+/*(480px and below)*/
+@media only screen and (max-width: 505px) {
+
+/*! GRID */
+
+footer [class*="col-"] {width: 93.5%}
+
+/*! EVENTS */
+
+//footer {text-align: center;}
+
+#event-header .col-12 > .sidebar-title {
+	display: none;
+}
+
+.countdown, #event-header #share {
+	display: table;
+	margin: 15px auto;
+	float: none;
+}
+
+.countdown {
+	clear: both;
+	margin: 0 auto;
+	font-size: 2.5em
+}
+
+.countdown > span:first-child {
+	padding-left: 12px;
+}
+
+#blog .thumbnail {
+	display: none
+}
+
+#blog .content {
+	width: 100%
+}
+
+#leader-title {
+	font-size: .55em;
+}
+
+.slide-title h1 {
+	font-size: 2em;
+}
+
+.slide-title span {
+	display: none;
+}
+
+.entry #share {width: 100%}
+
+/*! TEMP CONTACT*/
+
+.info small:first-child, .info small:last-child {padding: 0}
+
+.verse {border: none}
+
+//.info small {display: none}
+
+.title-wrap h1 {font-size: 2em}
+
+.title-wrap h2 {font-size: 1.4em}
+
+.aside div:last-child a {width: 100%}
+
+.updates p {height: auto}
+
+.tab-nav li a:before {font-size: 7em}
+
+#sermon h1 {
+	font-size: 2em;
+	margin: .5em 0;
+}
+
+.mejs-overlay-play {
+	top: 40%;
+}
+
+.modal { width: 250px; margin-left: -150px; padding: 25px; }
+
+.woocommerce-message {
+	text-align: center;
+}
+
+.woocommerce-message a {
+	display: block;
+	margin-bottom: 8px;
+}
+
+#shopping-cart-table [class*="product"] {
+	padding: 8px;
+}
+
+.review-image {display: none;}
+
+.product-quantity a {
+	display: block;
+	font-size: 1.5em;
+	margin: 15px 0 0 0;
+}
+
+#shopping-cart-table input {
+	width: 100%;
+	margin: 8px 0;
+}	
+
+}

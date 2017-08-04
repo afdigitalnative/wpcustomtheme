@@ -1,0 +1,28 @@
+/*! RESPONSIVE GRID */
+
+[class*="col-"] {
+	position:relative;
+	margin:1.25%;
+	float:left;
+	min-height:1px;
+	box-sizing: border-box;
+}
+
+.col-1 { width: 5.83% }
+.col-2 { width: 14.16% }
+.col-3 { width: 22.5% }
+.col-4 { width: 30.83% }
+.col-5 { width: 39.17% }
+.col-6 { width: 47.5% }
+.col-7 { width: 55.83% }
+.col-8 { width: 64.17% }
+.col-9 { width: 72.5% }
+.col-10 { width: 80.84% }
+.col-11 { width: 89.17% }
+.col-12 { width: 97.5% }
+
+#content-wrap {
+	position:relative;
+	max-width:1140px;
+	margin:0 auto;
+}
